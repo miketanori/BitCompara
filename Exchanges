@@ -62,7 +62,7 @@
 
 </shared>
 <div id="txtBox_64" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><h4 class="wse-txt-h4" style="text-align:center;"><span class="wse-txt-inner" style="font-weight:bold;"><span class="wse-txt-size"><span style="font-family:'Arial';">Exchanges</span></span></span></h4></div>
-<div id="imageContainer_66" style="position:absolute;" class="wse-img hidden-phone wse-personalize" border="0" objtype="0" data-skin="standard"><a class="wseA clr-brd-hextransparent" style="cursor:default;">
+<div id="imageContainer_66" style="position:absolute;" class="wse-img hidden-phone wse-personalize" border="0" objtype="0" data-skin="standard"><a class="wseA clr-brd-hextransparent" href="https://www.binance.com" target="_blank" >
 <div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Binance.png" 
@@ -73,7 +73,7 @@
         Logos/Binance.png 300w, 
         Logos/Binance.png 100w" 
     data-image-dimensions="1920x386" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_67" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_67" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.coinbase.com/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Coinbase.png" 
     data-srcset="Logos/Coinbase.png 1920w,
@@ -82,7 +82,7 @@
         Logos/Coinbase.png 500w, 
         Logos/Coinbase.pngg 300w, 
         Logos/Coinbase.png 100w" data-image-dimensions="1920x344" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_69" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_69" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.huobi.com" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Huobi.png" 
     data-srcset="Logos/Huobi.png 1920w, 
@@ -92,7 +92,7 @@
         Logos/Huobi.png 300w, 
         Logos/Huobi.png 100w" 
     data-image-dimensions="1920x485" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_70" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_70" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://bitso.com/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Bitso.png" 
     data-srcset="Logos/Bitso.png 1606w, 
@@ -102,7 +102,7 @@
         Logos/Bitso.png 300w, 
         Logos/Bitso.png 100w" 
     data-image-dimensions="1606x584" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_71" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_71" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.gemini.com/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Gemini.png" 
     data-srcset="Logos/Gemini.png 1200w, 
@@ -111,7 +111,7 @@
         Logos/Gemini.png 300w, 
         Logos/Gemini.png 100w" 
     data-image-dimensions="1200x260" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_72" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_72" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.blockchain.com/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Blockchain.com.png" 
     data-srcset="Logos/Blockchain.com.png 1280w, 
@@ -120,7 +120,7 @@
         Logos/Blockchain.com.png 300w, 
         Logos/Blockchain.com.png 100w" 
     data-image-dimensions="1280x716" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_73" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_73" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.gate.io/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Gateio.png" 
     data-srcset="Logos/Gateio.png 1800w, 
@@ -130,7 +130,7 @@
         Logos/Gateio.png 300w, 
         Logos/Gateio.png 100w" 
     data-image-dimensions="1800x638" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_74" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_74" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://ftx.com/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/FTX.png" 
     data-srcset="Logos/FTX.png 1920w, 
@@ -140,7 +140,7 @@
         Logos/FTX.png 300w, 
         Logos/FTX.png 100w" 
     data-image-dimensions="1920x593" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="imageContainer_68" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;"><div class="wseI">
+<div id="imageContainer_68" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.kraken.com/" target="_blank"><div class="wseI">
 <img data-scale="crop" data-image-focal-point="0.5,0.5" 
     data-image-src="Logos/Kraken.png" 
     data-srcset="Logos/Kraken.png 1920w, 

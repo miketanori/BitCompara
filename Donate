@@ -63,9 +63,17 @@
 </shared>
 <div id="txtBox_64" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><h4 class="wse-txt-h4" style="text-align:center;"><span class="wse-txt-inner" style="font-weight:bold;"><span class="wse-txt-size"><span style="font-family:'Arial';">Donate</span></span></span></h4></div>
 <div id="txtBox_66" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="text-align:center;"><span class="wse-txt-inner"><span class="wse-txt-size"><span style="font-family:'Arial';" class="fs-24" data-font-size="24"><span class="wse-txt-size">We know that most people will ignore this message. But if BitCompara is useful to you, please consider making a donation</span></span></span></span></p></div>
-<div id="imageContainer_67" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" style="cursor:default;">
+<div id="imageContainer_67" style="position:absolute;" class="wse-img wse-img-df hidden-phone" border="0" objtype="0"><a class="wseA" href="https://www.paypal.com/" target="_blank">
 <div class="wseI">
-<img data-scale="crop" data-image-focal-point="0.5,0.5" data-image-src="https://files.secure.website/wscfus/10662650/29477703/logo-paypal.png" data-srcset="https://files.secure.website/wscfus/10662650/29477703/logo-paypal-w1920-o.png 1920w, https://files.secure.website/wscfus/10662650/29477703/logo-paypal-w1000-o.png 1000w, https://files.secure.website/wscfus/10662650/29477703/logo-paypal-w750-o.png 750w, https://files.secure.website/wscfus/10662650/29477703/logo-paypal-w500-o.png 500w, https://files.secure.website/wscfus/10662650/29477703/logo-paypal-w300-o.png 300w, https://files.secure.website/wscfus/10662650/29477703/logo-paypal-w100-o.png 100w" data-image-dimensions="1920x1080" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
+<img data-scale="crop" data-image-focal-point="0.5,0.5" 
+    data-image-src="Logos/Paypal.png" 
+    data-srcset="Logos/Paypal.png 1920w, 
+        Logos/Paypal.png 1000w, 
+        Logos/Paypal.png 750w, 
+        Logos/Paypal.png 500w, 
+        Logos/Paypal.png 300w, 
+        Logos/Paypal.png 100w" 
+    data-image-dimensions="1920x1080" class="load-image" /></div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
 <div id="btnTool_68" style="position:absolute;font-size:24px;" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-75 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61 clr-brd-61" style="font-size:24px;" href="send_crypto">
 <div class="wseT">Send Crypto</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div></div></div>
 <div id="body-bg" class="bg-container">
