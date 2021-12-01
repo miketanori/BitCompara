@@ -63,33 +63,18 @@
 
 </shared>
 <div id="txtBox_64" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><h4 class="wse-txt-h4" style="text-align:center;"><span class="wse-txt-inner" style="font-weight:bold;"><span class="wse-txt-size"><span style="font-family:'Arial';">Calculator</span></span></span></h4></div>
-<div id="btnTool_67" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-62" style="font-family:'Arial';" href="calculator">
+<div id="btnTool_67" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-txt-61 clr-bkg-hextransparent clr-brd-hextransparent" style="font-family:'Arial';" href="calculator">
 <div class="wseT">Amount Mode</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
-<div id="btnTool_68" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-txt-61 clr-bkg-hextransparent clr-brd-hextransparent" style="font-family:'Arial';" href="pricemode"><div class="wseT">Price Mode</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
+<div id="btnTool_68" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-txt-12 clr-bkg-62 clr-brd-63" style="font-family:'Arial';" href="pricemode"><div class="wseT">Price Mode</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
 <div id="txtBox_69" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';"><span class="wse-txt-inner fs-20" style="font-weight:bold;" data-font-size="20"><span class="wse-txt-size">Currency</span></span></p></div>
 <div id="txtBox_70" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Cryptocurrency</span></span></p></div>
 <div id="txtBox_71" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Platform</span></span></p></div>
-<div id="txtBox_72" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Amount</span></span></p></div>
-<div id="btnTool_73" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61" style="font-family:'Arial';" href="calculator"><div class="wseT">Calculate</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
+<div id="txtBox_72" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Price</span></span></p></div>
+<div id="btnTool_73" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61" style="font-family:'Arial';" href="pricemode"><div class="wseT">Calculate</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
 <div id="txtBox_74" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" style="font-weight:bold;" data-font-size="20"><span class="wse-txt-size">Estimated Cost</span></span></p></div></div></div>
 <div id="body-bg" class="bg-container">
 <div class="content-fixed bg clr-brd-df clr-bkg-df wse-pg wse-pg-df" objtype="34">
 <div class="content-inner"><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div></div></div></div>
-
-<footer>
-<div id="footer-wrap">
-<div id="footer-full" class="content-full">
-<div class="content-inner">
-</div>
-</div>
-<div id="footer-fixed" class="content-fixed">
-<div class="content-inner">
-<div id="txtBox_63" objtype="2" style="position:absolute;padding:5px;display:block;" class="wse-txt-con"><p class="wse-txt-bs" style="text-align:left;"><span class="wse-txt-inner"><span class="wse-txt-size">Copyright © 2021 BitCompara</span></span></p></div>
-</div>
-</div>
-<div id="footer-bg" class="bg-container">
-<div class="content-fixed bg wse-ft-df wse-ft clr-bkg-hextransparent" objtype="33"><div class="content-inner"><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div></div></div>
-</div>
 </footer>
 </body>
 </html>
