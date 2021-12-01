@@ -70,7 +70,7 @@
 <div id="txtBox_70" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Cryptocurrency</span></span></p></div>
 <div id="txtBox_71" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Platform</span></span></p></div>
 <div id="txtBox_72" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Price</span></span></p></div>
-<div id="btnTool_73" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard" onclick="myGeeks()"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61" style="font-family:'Arial';" ><div class="wseT">Calculate</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
+<div id="btnTool_73" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard" onclick="GetSelectedItem()"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61" style="font-family:'Arial';" ><div class="wseT">Calculate</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
 
 <label id = "Total" style='position:absolute;top: 90px; left: 450px;z-index:1000; font-family: Arial; font-size: 50px;'>
   </label>
@@ -101,13 +101,23 @@
     var x = document.getElementById("Total");
     var total = 0;
 
+    if(a == "MXN"){
+      d = d/20;
+    }
+    else if(a == "USD"){
+      d = d;
+    }
+    else{
+      x.innerHTML = "";
+    }
+
     switch(c){
       case "Binance":
         if(b == "BTC"){
-          total = d*(arrBTC[0][0] * (1+arrBTC[0][2])) 
+          total = d/(arrBTC[0][0] * (1+arrBTC[0][2])) 
         }
         else if(b == "ETH"){
-          total = d*(arrETH[0][0] * (1+arrBTC[0][2])) 
+          total = d/(arrETH[0][0] * (1+arrBTC[0][2])) 
         }
         else{
           x.innerHTML = "";
@@ -115,10 +125,10 @@
         break;
       case "Coinbase":
         if(b == "BTC"){
-          total = d*(arrBTC[1][0] * (1+arrBTC[1][2])) 
+          total = d/(arrBTC[1][0] * (1+arrBTC[1][2])) 
         }
         else if(b == "ETH"){
-          total = d*(arrETH[1][0] * (1+arrBTC[1][2])) 
+          total = d/(arrETH[1][0] * (1+arrBTC[1][2])) 
         }
         else{
           x.innerHTML = "";
@@ -126,10 +136,10 @@
         break;
       case "Kraken":
         if(b == "BTC"){
-          total = d*(arrBTC[2][0] * (1+arrBTC[2][2])) 
+          total = d/(arrBTC[2][0] * (1+arrBTC[2][2])) 
         }
         else if(b == "ETH"){
-          total = d*(arrETH[2][0] * (1+arrBTC[2][2])) 
+          total = d/(arrETH[2][0] * (1+arrBTC[2][2])) 
         }
         else{
           x.innerHTML = "";
@@ -137,10 +147,10 @@
         break;
       case "Gemini":
       if(b == "BTC"){
-          total = d*(arrBTC[3][0] * (1+arrBTC[3][2])) 
+          total = d/(arrBTC[3][0] * (1+arrBTC[3][2])) 
         }
         else if(b == "ETH"){
-          total = d*(arrETH[3][0] * (1+arrBTC[3][2])) 
+          total = d/(arrETH[3][0] * (1+arrBTC[3][2])) 
         }
         else{
           x.innerHTML = "";
@@ -149,16 +159,7 @@
       default:
         break;
     }
-
-    if(a == "MXN"){
-      x.innerHTML = total * 20;
-    }
-    else if(a == "USD"){
-      x.innerHTML = total;
-    }
-    else{
-      x.innerHTML = "";
-    }
+    x.innerHTML = total;
   } 
 </script>
 
