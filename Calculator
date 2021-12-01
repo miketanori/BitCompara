@@ -70,11 +70,59 @@
 <div id="txtBox_70" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Cryptocurrency</span></span></p></div>
 <div id="txtBox_71" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Platform</span></span></p></div>
 <div id="txtBox_72" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" data-font-size="20"><span class="wse-txt-size">Amount</span></span></p></div>
-<div id="btnTool_73" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61" style="font-family:'Arial';" href="calculator"><div class="wseT">Calculate</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
+<div id="btnTool_73" style="position:absolute;font-family:'Arial';" class="wse-btn hidden-phone wse-personalize" objtype="29" data-skin="standard"><a class="wseA clr-txt-75 clr-brd-63 clr-txt-hvr-75 clr-bkg-hvr-63 clr-brd-hvr-62 clr-bkg-61" style="font-family:'Arial';" onclick="myGeeks()"><div class="wseT">Calculate</div></a><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div>
+
+<label id = "GFG" style='position:absolute;top: 90px; left: 450px;z-index:1000; font-family: Arial; font-size: 50px;'>
+        0
+</label>
+<br>
+<script>
+    function myGeeks() {
+        var x = document.getElementById("GFG");    
+        if (x.innerHTML === "0") {
+            x.innerHTML = "9007";
+        } 
+        else {
+            x.innerHTML = "0";
+        }
+    }
+</script>
+
+
 <div id="txtBox_74" style="position:absolute;padding:0px;display:block;font-family:'Arial';" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="font-family:'Arial';text-align:right;"><span class="wse-txt-inner fs-20" style="font-weight:bold;" data-font-size="20"><span class="wse-txt-size">Estimated Cost</span></span></p></div></div></div>
 <div id="body-bg" class="bg-container">
 <div class="content-fixed bg clr-brd-df clr-bkg-df wse-pg wse-pg-df" objtype="34">
 <div class="content-inner"><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div></div></div></div>
+
+<form action="/currency" style='position:absolute;top: 150px; left: 1000px;z-index:1000;'>
+    <select name="Currency" id="currency">
+        <option value="" selected="selected"></option>
+        <option value="USD">USD</option>
+        <option value="MXN">MXN</option>
+    </select>
+</form>
+
+<form action="/crypto" style='position:absolute;top: 280px; left: 600px;z-index:1000;'>
+  <select name="Crypto" id="Crypto" >
+    <option value="" selected="selected"></option>
+    <option value="BTC">BTC</option>
+    <option value="ETH">ETH</option>
+    <option value="LTC">LTC</option>
+    <option value="DOGE">DOGE</option>
+  </select>
+</form>
+
+<form action="/platform" style='position:absolute;top: 325px; left: 600px;z-index:1000;'>
+  <select name="Platform" id="Platform" >
+    <option value="" selected="selected"></option>
+    <option value="Binance">Binance</option>
+    <option value="Coinbase">Coinbase</option>
+    <option value="Kraken">Kraken</option>
+    <option value="Gemini">Gemini</option>
+  </select>
+</form>
+
+<input type="text" id="Amount" name="Amount" style='position:absolute;top: 372px; left: 600px;z-index:1000;'>
 
 <footer>
 <div id="footer-wrap">
