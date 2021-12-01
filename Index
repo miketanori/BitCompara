@@ -144,14 +144,19 @@ td
 </div></div>
 <div id="body-fixed" class="content-fixed"><div class="content-inner"><shared> </shared>
 
+
+
+
+
 <div id="txtBox_64" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><h4 class="wse-txt-h4" style="text-align:center;"><span class="wse-txt-inner" style="font-weight:bold;"><span class="wse-txt-size"><span style="font-family:'Arial';">Compare</span></span></span></h4></div>
 <div id="txtBox_65" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><p class="wse-txt-bm" style="text-align:center;"><span class="wse-txt-inner"><span class="wse-txt-size"><span style="font-family:'Arial';" class="fs-24" data-font-size="24"><span class="wse-txt-size">Compare the real prices of buying crypto with credit/debit card<br /></span></span></span></span></p></div>
 <div id="txtBox_66" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><h4 class="wse-txt-h4" style="text-align:center;"><span class="wse-txt-inner" style="font-weight:bold;"><span class="wse-txt-size"><span style="font-family:'Arial';">Currency</span></span></span></h4></div>
 <div id="txtBox_67" style="position:absolute;padding:0px;display:block;" objtype="2" class="hidden-phone wse-txt-con"><h4 class="wse-txt-h4" style="text-align:center;"><span class="wse-txt-inner" style="font-weight:bold;"><span class="wse-txt-size"><span style="font-family:'Arial';">Crypto</span></span></span></h4></div></div></div>
 
+
 <div id="TableCrypto_7598" align=center x:publishsource="Excel"></div>
 <table border=0 cellpadding=15 cellspacing=0 width=633 style='border-collapse:
- collapse;table-layout:fixed;width:473pt;position:absolute;top: 180px; left: 200px' >
+ collapse;table-layout:fixed;width:473pt;position:absolute;top: 200px; left: 200px' >
  <col width=87 span=2 style='width:65pt'>
  <tr height=21 style='height:16.0pt'>
   <td height=21 width=87 style='height:16.0pt;width:65pt'></td>
@@ -248,6 +253,22 @@ td
 <div class="content-fixed bg clr-brd-df clr-bkg-df wse-pg wse-pg-df" objtype="34">
 <div class="content-inner"><div class="wseSHBL"></div><div class="wseSHBR"></div><div class="wseSHTL"></div><div class="wseSHTR"></div></div></div></div></div>
 
+
+<form action="/index.html" style='position:absolute;top: 250px; left: 500px;z-index:1000'>
+  <select name="Currency" id="currency">
+    <option value="USD">USD</option>
+    <option value="MXN">MXN</option>
+  </select>
+</form>
+
+<form action="/hello" style='position:absolute;top: 250px; left: 900px;z-index:1000;'>
+  <select name="Crypto" id="Crypto" >
+    <option value="BTC">BTC</option>
+    <option value="ETH">ETH</option>
+    <option value="LTC">LTC</option>
+    <option value="DOGE">DOGE</option>
+  </select>
+</form>
 
 <footer>
 <div id="footer-wrap">
